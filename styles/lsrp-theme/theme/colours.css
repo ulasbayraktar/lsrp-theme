@@ -1,0 +1,1252 @@
+/*
+--------------------------------------------------------------
+Colours and backgrounds for common.css
+-------------------------------------------------------------- */
+
+html, body {
+	color: #383838;
+	background-color: #8db1c4;
+}
+
+h1 {
+	color: #FFFFFF;
+}
+
+h2 {
+	color: #28313F;
+}
+
+h3 {
+	/*border-bottom-color: #DADADA;*/
+}
+
+hr {
+	border-color: #DADADA;
+	border-top-color: #DADADA;
+}
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for links.css
+-------------------------------------------------------------- */
+
+a { color: #323A45; }
+a:hover	{ text-decoration: underline; }
+
+
+a.forumtitle {
+	color: #323A45;
+}
+a.topictitle {
+	color: #323A45;
+}
+
+/* Links on gradient backgrounds */
+.forumbg .header a, .forabg .header a, th a {
+	color: #FFFFFF;
+}
+
+.forumbg .header a:hover, .forabg .header a:hover, th a:hover {
+
+}
+
+.navbar ul#nav-main > li > a {
+    color: #FFFFFF;
+}
+
+/* Notification mark read link */
+.dropdown-extended a.mark_read {
+	background-color: #FFFFFF;
+}
+
+/* Post body links */
+/*.postlink {
+	border-bottom-color: #368AD2;
+	color: #368AD2;
+}
+
+.postlink:visited {
+	border-bottom-color: #5D8FBD;
+	color: #5D8FBD;
+}
+
+.postlink:hover {
+	background-color: #D0E4F6;
+	color: #0D4473;
+}*/
+
+.signature a, .signature a:hover {
+	background-color: transparent;
+}
+
+/* Back to top of page */
+.top i {
+	color: #999999;
+}
+
+/* Arrow links  */
+.arrow-left:hover, .arrow-right:hover {
+	/*color: #368AD2;*/
+}
+
+/* Round cornered boxes and backgrounds
+---------------------------------------- */
+.wrap {
+	/*background-color: #FFF;
+	border-color: #E6E9ED;*/
+}
+
+.headerbar {
+
+}
+
+.navbar {
+	/*background-color: #cadceb;*/
+}
+
+.navbar ul#nav-main {
+	background-color: #2E3539;
+}
+
+.forabg {
+	background-color: #6f858f; /*#708090*/
+}
+
+.forumbg {
+	background-color: #708090;
+
+}
+
+.panel {
+	background-color: #FFFFFF;
+}
+
+.post:target .content {
+	color: #000000;
+}
+
+.post:target h3 a {
+	color: #000000;
+}
+
+.bg1 {
+	background-color: #eef5f9;
+}
+
+table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
+	background-color: #FBFBFB;
+}
+
+.bg2 {
+	background-color: #FFFFFF;
+}
+
+table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
+	background-color: #EAEDF1;
+}
+
+.bg3	{
+	background-color: #FFFFFF;
+}
+
+.ucprowbg {
+	background-color: #DCDEE2;
+}
+
+.fieldsbg {
+	background-color: #E7E8EA;
+}
+
+.site_logo {
+	background-image: url("./images/lsrplogo.png");
+/*	background-color: red;*/
+	background-size: 100% auto;
+}
+
+/* Horizontal lists
+----------------------------------------*/
+
+ul.navlinks {
+	border-top-color: #FFFFFF;
+}
+
+/* Table styles
+----------------------------------------*/
+table.table1 thead th {
+	color: #FFFFFF;
+}
+
+table.table1 tbody tr {
+	border-color: #EBEBEB;
+}
+
+table.table1 tbody tr:hover, table.table1 tbody tr.hover {
+	color: #000;
+}
+
+table.table1 td {
+	color: #333333;
+}
+
+table.table1 tbody td {
+	border-top-color: #EBEBEB;
+}
+.section-viewonline table.table1 tbody td,
+.section-memberlist table.table1 tbody td {
+	border-top-color: #E5E5E5;
+}
+
+table.table1 tbody th {
+	border-bottom-color: #000000;
+	color: #333333;
+	background-color: #FFFFFF;
+}
+
+table.info tbody th {
+	color: #000000;
+}
+
+/* Misc layout styles
+---------------------------------------- */
+dl.details dt {
+	color: #000000;
+}
+
+dl.details dd {
+	color: #828282;
+}
+
+.sep {
+	color: #1198D9;
+}
+
+/* Icon styles
+---------------------------------------- */
+.icon.icon-blue, a:hover .icon.icon-blue {
+	color: #196db5;
+}
+
+.icon.icon-green, a:hover .icon.icon-green{
+	color: #1b9A1B;
+}
+
+.icon.icon-red, a:hover .icon.icon-red{
+	color: #BC2A4D;
+}
+
+.icon.icon-orange, a:hover .icon.icon-orange{
+	color: #FF6600;
+}
+
+.icon.icon-bluegray, a:hover .icon.icon-bluegray{
+	color: #536482;
+}
+
+.icon.icon-gray, a:hover .icon.icon-gray{
+	color: #777777;
+}
+
+.icon.icon-lightgray, a:hover .icon.icon-lightgray{
+	color: #C8C8C8;
+}
+
+.icon.icon-black, a:hover .icon.icon-black{
+	color: #333333;
+}
+
+.alert_close .icon:before {
+	background-color: #FFFFFF;
+}
+
+/* Jumpbox */
+.jumpbox .dropdown li {
+	border-top-color: #E5E5E5;
+}
+
+.jumpbox-cat-link {
+	background-color: #2E3539;
+	border-top-color: #2E3539;
+	color: #FFFFFF;
+}
+
+.jumpbox-cat-link:hover {
+	background-color: #2E3539;
+	border-top-color: #2E3539;
+	color: #FFFFFF;
+}
+
+.jumpbox-forum-link {
+	/*background-color: #E1EBF2;*/
+}
+
+.jumpbox-forum-link:hover {
+	background-color: #EAEDF1;
+}
+
+.jumpbox .dropdown .pointer-inner {
+	border-color: #FFFFFF transparent;
+}
+
+.jumpbox-sub-link {
+	/*background-color: #E1EBF2;*/
+}
+
+.jumpbox-sub-link:hover {
+	background-color: #EAEDF1;
+}
+/* Miscellaneous styles
+---------------------------------------- */
+
+.copyright {
+	color: #555555;
+}
+
+.error {
+	color: #BC2A4D;
+}
+
+.reported {
+    background-color: #FFFFFF;
+    border: 2px solid #F27935;
+}
+li.reported {
+	    border: 2px solid #F27935 !important;
+}
+li.reported + li.reported {
+	border-top: 0 !important;
+}
+
+li.reported:hover {
+	background-color: #FFF !important;
+}
+.sticky, .announce {
+	/* you can add a background for stickies and announcements*/
+}
+
+div.rules {
+	background-color: #E1E1E1;
+}
+
+p.post-notice {
+	background-color: #ECD5D8;
+	background-image: none;
+}
+
+p.post-notice.deleted:before {
+	font-family: FontAwesome;
+	content: "\f1b8";
+	font-size: 14px;
+	color: #3CA83C;
+}
+
+p.post-notice.unapproved:before {
+	font-family: FontAwesome;
+	content: "\f059";
+	font-size: 14px;
+	color: #5D8DFF;
+}
+
+p.post-notice.reported:before, p.post-notice.error:before {
+	font-family: FontAwesome;
+	content: "\f071";
+	font-size: 14px;
+	color: #FD5E01;
+}
+p.post-notice.reported {
+	border-color: transparent;
+}
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for content.css
+-------------------------------------------------------------- */
+
+ul.forums {
+	background-color: #eef5f9 /*#FFFFFF*/;
+}
+
+ul.topiclist li {
+	color: #777777;
+}
+.cp-main ul.topiclist li.header {
+	background-color: #708090;
+	color: #FFFFFF;
+}
+
+ul.topiclist dd {
+
+}
+
+.rtl ul.topiclist dd {
+	border-right-color: transparent;
+	border-left-color: transparent;
+}
+
+li.row {
+	border-bottom-color: #E5E5E5;
+}
+
+li.row strong {
+	color: #000000;
+}
+
+li.row:hover {
+	background-color: #FFFFFF;
+}
+
+li.row:hover dd {
+	border-left-color: transparent;
+}
+
+.rtl li.row:hover dd {
+	border-right-color: transparent;
+	border-left-color: transparent;
+}
+
+li.header dt, li.header dd {
+	color: #FFFFFF;
+}
+
+/* Post body styles
+----------------------------------------*/
+.postbody {
+	color: #333333;
+}
+
+/* Content container styles
+----------------------------------------*/
+.content {
+	color: #333333;
+}
+
+.content h2, .panel h2 {
+	border-bottom-color:  transparent;
+}
+
+dl.faq dt {
+	color: #333333;
+}
+
+.posthilit {
+	background-color: #F3BFCC;
+	color: #BC2A4D;
+}
+
+.announce, .unreadpost {
+	/* Highlight the announcements & unread posts box */
+}
+
+/* Post signature */
+.signature {
+	border-top-color: #EBEBEB;
+}
+
+/* Post noticies */
+.notice {
+	border-top-color:  #EBEBEB;
+}
+
+/* BB Code styles
+----------------------------------------*/
+/* Quote block */
+blockquote {
+	background-color: #EAEDF1;
+	border-color: #708090;
+}
+
+.rtl blockquote {
+
+}
+
+blockquote blockquote {
+	/* Nested quotes */
+	background-color: #F5F5F5;
+}
+
+blockquote blockquote blockquote {
+	/* Nested quotes */
+	background-color: #FFFFFF;
+}
+
+/* Code block */
+.codebox {
+	background-color: #EAEDF1;
+	border-color: #F27935;
+}
+
+.codebox p {
+	border-bottom-color:  #CCCCCC;
+}
+
+.codebox code {
+	color: #2E8B57;
+}
+
+.syntaxbg		{ color: #FFFFFF; }
+.syntaxcomment	{ color: #FF8000; }
+.syntaxdefault	{ color: #0000BB; }
+.syntaxhtml		{ color: #000000; }
+.syntaxkeyword	{ color: #007700; }
+.syntaxstring	{ color: #DD0000; }
+
+/* Attachments
+----------------------------------------*/
+.attachbox {
+	background-color: #FFFFFF;
+	border-color:  #C9D2D8;
+}
+
+.pm-message .attachbox {
+	background-color: #F2F3F3;
+}
+
+.attachbox dd {
+	border-top-color: #EBEBEB;
+}
+
+.attachbox p {
+	color: #666666;
+}
+
+.attachbox p.stats {
+	color: #666666;
+}
+
+.attach-image img {
+	border-color: #999999;
+}
+
+/* Inline image thumbnails */
+
+dl.file dd {
+	color: #666666;
+}
+
+dl.thumbnail img {
+	border-color: #666666;
+	background-color: #FFFFFF;
+}
+
+dl.thumbnail dd {
+	color: #666666;
+}
+
+dl.thumbnail dt a:hover {
+	background-color: #EEEEEE;
+}
+
+dl.thumbnail dt a:hover img {
+	border-color: #368AD2;
+}
+
+/* Post poll styles
+----------------------------------------*/
+
+fieldset.polls dl {
+	border-top-color: #DCDEE2;
+	color: #666666;
+}
+
+fieldset.polls dl.voted {
+	color: #000000;
+}
+
+fieldset.polls dd div {
+	color: #FFFFFF;
+}
+
+.rtl .pollbar1, .rtl .pollbar2, .rtl .pollbar3, .rtl .pollbar4, .rtl .pollbar5 {
+	border-right-color: transparent;
+}
+
+.pollbar1 {
+	background-color: #AA2346;
+	border-bottom-color: #74162C;
+	border-right-color: #74162C;
+}
+
+.rtl .pollbar1 {
+	border-left-color: #74162C;
+}
+
+.pollbar2 {
+	background-color: #BE1E4A;
+	border-bottom-color: #8C1C38;
+	border-right-color: #8C1C38;
+}
+
+.rtl .pollbar2 {
+	border-left-color: #8C1C38;
+}
+
+.pollbar3 {
+	background-color: #D11A4E;
+	border-bottom-color: #AA2346;
+	border-right-color: #AA2346;
+}
+
+.rtl .pollbar3 {
+	border-left-color: #AA2346;
+}
+
+.pollbar4 {
+	background-color: #E41653;
+	border-bottom-color: #BE1E4A;
+	border-right-color: #BE1E4A;
+}
+
+.rtl .pollbar4 {
+	border-left-color: #BE1E4A;
+}
+
+.pollbar5 {
+	background-color: #F81157;
+	border-bottom-color: #D11A4E;
+	border-right-color: #D11A4E;
+}
+
+.rtl .pollbar5 {
+	border-left-color: #D11A4E;
+}
+
+/* Poster profile block
+----------------------------------------*/
+.postprofile {
+	color: #666666;
+	border-color: #FFFFFF;
+}
+
+.pm .postprofile {
+	border-color: #DDDDDD;
+}
+
+.postprofile strong {
+	color: #000000;
+}
+
+.online {
+	background-image: none;
+}
+
+dd.profile-warnings {
+	color: #BC2A4D;
+}
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for buttons.css
+-------------------------------------------------------------- */
+.button {
+	background-color: #B3B3B3;
+	box-shadow: 0 -3px 0 0 #8F8F8F inset;
+	color: #FFFFFF;
+}
+.pagination ul > li > a.button {
+	box-shadow: none;
+}
+#search-box button.button-search,
+.search-box button.button-search {
+	background-color: #708090;
+	box-shadow: 0 -3px 0 0 #4A5867 inset;
+}
+#search-box button.button-search:hover,
+.search-box button.button-search:hover  {
+	background-color: #708090;
+	box-shadow: 0 -3px 0 0 #4A5867 inset;
+}
+#search-box a.button.button-search-end,
+.search-box a.button.button-search-end {
+	background-color: #54585B;
+	box-shadow: 0 -3px 0 0 #21262A inset;
+}
+.page-header-marina #search-box a.button.button-search-end {
+	box-shadow: 0 -3px 0 0 #444A4F inset;
+}
+.action-bar a.button:not(.button-search-end):not([role="button"]) {
+	background-color: #F27935;
+	box-shadow: 0 -3px 0 0 #D94F14 inset;
+}
+.action-bar a.button:not(.button-search-end):not([role="button"]):hover {
+	opacity: .7;
+}
+form#login p > .button2 {
+	background-color: #F27935;
+	box-shadow: 0 -3px 0 0 #D94F14 inset;
+	color: #FFFFFF;
+}
+
+.dropdown-select {
+	color: #FFFFFF;
+}
+
+.button:hover, .dropdown-visible .dropdown-select, .nojs .dropdown-container:hover .dropdown-select {
+	background-color: #708090;
+	box-shadow: 0 -3px 0 0 #4A5867 inset;
+}
+
+.dropdown-select:after	{ border-color: #DADADA; }
+.dropdown-select:hover	{ border-color: #9ACCC8; }
+
+.dropdown-visible .dropdown-select, .dropdown-visible .dropdown-select:hover, .nojs .dropdown-container:hover .dropdown-select {
+	border-color: #A6B2BA;
+	color: #FFFFFF;
+}
+.caret	{ border-color: #DADADA; }
+.caret	{ border-color: #EAEAEA; }
+
+.contact-icons a		{ border-color: #EBEBEB; }
+.contact-icons a:hover	{ background-color: #EAEDF1; }
+
+/* Pagination
+---------------------------------------- */
+
+.pagination li a {
+	background-color: #D1DAE0;
+	color: #777777;
+}
+
+.pagination li.ellipsis span {
+	background-color: transparent;
+	color:	#000000;
+}
+
+.pagination li.active span {
+	background-color: #708090;
+	border-color: #708090;
+	color: #FFFFFF;
+}
+
+.pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
+	color: #FFFFFF;
+}
+
+/* Search box
+--------------------------------------------- */
+
+.search-box .inputbox,
+.search-box .inputbox:hover,
+.search-box .inputbox:focus,
+.search-box .button:hover {
+	border-color: #DADADA;
+}
+
+.search-header {
+
+}
+
+/* Icon images
+---------------------------------------- */
+
+.contact-icon						{ background-image: url("./images/icons_contact.svg"); }
+
+/* Profile & navigation icons */
+.pm-icon							{ background-position: 0 0; }
+.email-icon							{ background-position: -20px 0; }
+.jabber-icon						{ background-position: -80px 0; }
+.phpbb_icq-icon						{ background-position: -61px 0 ; }
+.phpbb_wlm-icon						{ background-position: -182px 0; }
+.phpbb_aol-icon						{ background-position: -244px 0; }
+.phpbb_website-icon					{ background-position: -40px 0; }
+.phpbb_youtube-icon					{ background-position: -98px 0; }
+.phpbb_facebook-icon				{ background-position: -119px 0; }
+.phpbb_googleplus-icon				{ background-position: -140px 0; }
+.phpbb_skype-icon					{ background-position: -161px 0; }
+.phpbb_twitter-icon					{ background-position: -203px 0; }
+.phpbb_yahoo-icon					{ background-position: -224px 0; }
+/* Forum icons & Topic icons */
+.global_read													{ background-image: url("./images/announce_read.svg"); }
+.global_read_mine												{ background-image: url("./images/announce_read_mine.svg"); }
+.global_read_locked												{ background-image: url("./images/announce_read_locked.svg"); }
+.global_read_locked_mine										{ background-image: url("./images/announce_read_locked_mine.svg"); }
+.global_unread													{ background-image: url("./images/announce_unread.svg"); }
+.global_unread_mine												{ background-image: url("./images/announce_unread_mine.svg"); }
+.global_unread_locked											{ background-image: url("./images/announce_unread_locked.svg"); }
+.global_unread_locked_mine										{ background-image: url("./images/announce_unread_locked_mine.svg"); }
+
+.announce_read													{ background-image: url("./images/announce_read.svg"); }
+.announce_read_mine												{ background-image: url("./images/announce_read_mine.svg"); }
+.announce_read_locked											{ background-image: url("./images/announce_read_locked.svg"); }
+.announce_read_locked_mine										{ background-image: url("./images/announce_read_locked_mine.svg"); }
+.announce_unread												{ background-image: url("./images/announce_unread.svg"); }
+.announce_unread_mine											{ background-image: url("./images/announce_unread_mine.svg"); }
+.announce_unread_locked											{ background-image: url("./images/announce_unread_locked.svg"); }
+.announce_unread_locked_mine									{ background-image: url("./images/announce_unread_locked_mine.svg"); }
+
+.forum_link														{ background-image: url("./images/forum_link.svg"); }
+.forum_read														{ background-image: url("./images/forum_read.svg"); }
+.forum_read_locked												{ background-image: url("./images/forum_read_locked.svg"); }
+.forum_read_subforum											{ background-image: url("./images/forum_read_subforum.svg"); }
+.forum_unread													{ background-image: url("./images/forum_unread.svg"); }
+.forum_unread_locked											{ background-image: url("./images/forum_unread_locked.svg"); }
+.forum_unread_subforum											{ background-image: url("./images/forum_unread_subforum.svg"); }
+
+.sticky_read													{ background-image: url("./images/sticky_read.svg"); }
+.sticky_read_mine												{ background-image: url("./images/sticky_read_mine.svg"); }
+.sticky_read_locked												{ background-image: url("./images/sticky_read_locked.svg"); }
+.sticky_read_locked_mine										{ background-image: url("./images/sticky_read_locked_mine.svg"); }
+.sticky_unread													{ background-image: url("./images/sticky_unread.svg"); }
+.sticky_unread_mine												{ background-image: url("./images/sticky_unread_mine.svg"); }
+.sticky_unread_locked											{ background-image: url("./images/sticky_unread_locked.svg"); }
+.sticky_unread_locked_mine										{ background-image: url("./images/sticky_unread_locked_mine.svg"); }
+
+.topic_moved													{ background-image: url("./images/topic_moved.svg"); }
+.topic_read														{ background-image: url("./images/topic_read.svg"); }
+.topic_read_mine												{ background-image: url("./images/topic_read_mine.svg"); }
+.topic_read_hot													{ background-image: url("./images/topic_read_hot.svg"); }
+.topic_read_hot_mine											{ background-image: url("./images/topic_read_hot_mine.svg"); }
+.topic_read_locked												{ background-image: url("./images/topic_read_locked.svg"); }
+.topic_read_locked_mine											{ background-image: url("./images/topic_read_locked_mine.svg"); }
+.topic_unread													{ background-image: url("./images/topic_unread.svg"); }
+.topic_unread_mine												{ background-image: url("./images/topic_unread_mine.svg"); }
+.topic_unread_hot												{ background-image: url("./images/topic_unread_hot.svg"); }
+.topic_unread_hot_mine											{ background-image: url("./images/topic_unread_hot_mine.svg"); }
+.topic_unread_locked											{ background-image: url("./images/topic_unread_locked.svg"); }
+.topic_unread_locked_mine										{ background-image: url("./images/topic_unread_locked_mine.svg"); }
+
+.pm_read														{ background-image: url("./images/topic_read.svg"); }
+.pm_unread														{ background-image: url("./images/topic_unread.svg"); }
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for cp.css
+-------------------------------------------------------------- */
+
+/* Main CP box
+----------------------------------------*/
+
+.panel-container h3, .panel-container hr, .cp-menu hr {
+	border-color: #EBEBEB;
+}
+
+.panel-container .panel li.row {
+	border-bottom-color: #EBEBEB;
+	border-top-color: transparent;
+}
+
+ul.cplist {
+
+}
+
+.panel-container .panel li.header dd, .panel-container .panel li.header dt,
+.panel-container .panel li.header dd a, .panel-container .panel li.header dt a {
+	color: #FFFFFF;
+}
+
+.panel-container table.table1 thead th {
+	color: #FFFFFF;
+	border-bottom-color: transparent;
+	background-color: #708090;
+}
+
+.cp-main .pm-message {
+	border-color: #DBDEE2;
+	background-color: #FFFFFF;
+}
+
+/* CP tabbed menu
+----------------------------------------*/
+.tabs .tab > a {
+	background-color: #708090;
+	color: #FFFFFF;
+}
+
+.tabs .tab > a:hover {
+	opacity: .7;
+}
+
+.tabs .activetab > a,
+.tabs .activetab > a:hover {
+	background-color: #FFFFFF;
+	color: #333333;
+	opacity: 1;
+}
+
+.tabs .activetab > a:hover {
+	color: #000000;
+}
+
+/* Mini tabbed menu used in MCP
+----------------------------------------*/
+.minitabs .tab > a {
+	background-color: #323A45;
+	color: #FFFFFF;
+}
+
+.minitabs .activetab > a,
+.minitabs .activetab > a:hover {
+	background-color: #F9F9F9;
+	color: #333333;
+}
+
+/* Responsive tabs
+----------------------------------------*/
+.responsive-tab .responsive-tab-link:before {
+	border-color: #FFFFFF;
+}
+
+.responsive-tab .responsive-tab-link:hover:before {
+	border-color: #FFFFFF;
+}
+.tabs .activetab > .responsive-tab-link:before,
+.tabs .activetab > .responsive-tab-link:hover:before {
+	border-color: #333333;
+}
+
+/* UCP navigation menu
+----------------------------------------*/
+
+/* Link styles for the sub-section links */
+.navigation a {
+	color: #FFFFFF;
+	background: #323A45;
+}
+
+.rtl .navigation a {
+	background: #323A45;
+}
+
+.navigation a:hover {
+	opacity: 0.7;
+}
+
+.navigation #active-subsection a {
+	background: #F5F5F5;
+	color: #333333;
+}
+
+.navigation #active-subsection a:hover {
+	color: #333333;
+	opacity: 1;
+}
+
+
+@media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
+{
+	#navigation a, .rtl #navigation a {
+		/*background: #B2C2CF;*/
+	}
+}
+
+/* Preferences pane layout
+----------------------------------------*/
+.panel-container h2 {
+	color: #333333;
+}
+
+.panel-container .panel {
+	background-color: #F9F9F9;
+}
+#file-list-container.panel {
+	background-color: transparent;
+}
+.cp-main .pm {
+	background-color: #F5F5F5;
+}
+.cp-main .panel {
+	background-color: #F5F5F5;
+}
+/* Friends list */
+.cp-mini {
+	background-color: #FFFFFF;
+}
+
+dl.mini dt {
+	color: #425067;
+}
+
+/* PM Styles
+----------------------------------------*/
+/* PM Message history */
+.current {
+	color: #000000 !important;
+}
+
+/* PM marking colours */
+.pmlist li.pm_message_reported_colour, .pm_message_reported_colour {
+	border-left-color: #BC2A4D;
+	border-right-color: #BC2A4D;
+}
+
+.pmlist li.pm_marked_colour, .pm_marked_colour {
+	border-color: #FF6600;
+}
+
+.pmlist li.pm_replied_colour, .pm_replied_colour {
+	border-color: #A9B8C2;
+}
+
+.pmlist li.pm_friend_colour, .pm_friend_colour {
+	border-color: #5D8FBD;
+}
+
+.pmlist li.pm_foe_colour, .pm_foe_colour {
+	border-color: #000000;
+}
+
+/* Avatar gallery */
+.gallery label {
+	background: #FFFFFF;
+	border-color: #CCC;
+}
+
+.gallery label:hover {
+	background-color: #EEE;
+}
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for forms.css
+-------------------------------------------------------------- */
+
+/* General form styles
+----------------------------------------*/
+select {
+	border-color: #DADADA;
+	background-color: #FAFAFA;
+}
+
+label {
+	/*color: #425067;*/
+}
+
+option.disabled-option {
+	color: graytext;
+}
+
+/* Definition list layout for forms
+---------------------------------------- */
+dd label {
+	color: #333;
+}
+
+fieldset.fields1 {
+	background-color: transparent;
+}
+
+/* Hover effects */
+fieldset dl:hover dt label {
+	color: #000000;
+}
+
+fieldset.fields2 dl:hover dt label {
+	color: inherit;
+}
+
+/* Quick-login on index page */
+fieldset.quick-login input.inputbox {
+	background-color: #F2F3F3;
+}
+
+/* Posting page styles
+----------------------------------------*/
+
+.message-box textarea {
+	color: #333333;
+}
+
+.message-box textarea.drag-n-drop {
+	outline-color: rgba(102, 102, 102, 0.5);
+}
+
+.message-box textarea.drag-n-drop-highlight {
+	outline-color: rgba(17, 163, 234, 0.5);
+}
+
+/* Input field styles
+---------------------------------------- */
+.inputbox {
+	background-color: #FFFFFF;
+	border-color: #DADADA;
+	color: #333333;
+}
+
+.inputbox:-moz-placeholder {
+	color: #333333;
+}
+
+.inputbox::-webkit-input-placeholder {
+	color: #333333;
+}
+
+.inputbox:hover {
+	border-color: #708090 !important;
+}
+
+.inputbox:focus {
+	border-color: #708090 !important;
+}
+
+.inputbox:focus:-moz-placeholder {
+	color: transparent;
+}
+
+.inputbox:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+
+
+/* Form button styles
+---------------------------------------- */
+
+a.button1, input.button1, input.button3 {
+    background-color: #708090;
+    box-shadow: 0 -3px 0 0 #4A5867 inset;
+    color: #FFFFFF;
+}
+a.button2, input.button2 {
+    background-color: #54585B;
+    box-shadow: 0 -3px 0 0 #21262A inset;
+    color: #FFFFFF;
+}
+.button2#refresh_vc {
+    background-color: #708090;
+    box-shadow: 0 -3px 0 0 #4A5867 inset;
+    border: transparent;
+}
+a.button1, input.button1 {
+	border-color: #666666;
+}
+
+input.button3 {
+	background-image: none;
+}
+
+/* Alternative button */
+a.button2, input.button2, input.button3 {
+	border-color: #666666;
+}
+
+/* <a> button in the style of the form buttons */
+a.button1, a.button2 {
+	color: #FFFFFF;
+}
+
+/* Hover states */
+a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
+	color: #FFFFFF;
+	opacity: .7;
+}
+
+/* Focus states */
+input.button1:focus, input.button2:focus, input.button3:focus {
+	color: #FFFFFF;
+}
+
+input.search {
+	/*background-image: url("./images/icon_textbox_search.gif");*/
+}
+
+input.disabled {
+	color: #666666;
+}
+
+/* jQuery popups
+---------------------------------------- */
+.phpbb_alert {
+	background-color: #FFFFFF;
+}
+.phpbb_alert .alert_close {
+	color: #708090 !important;
+}
+.darken {
+	background-color: #000000;
+}
+
+.loading_indicator {
+	background-color: #000000;
+	background-image: url("./images/loading.gif");
+}
+
+.dropdown-extended ul li {
+	border-top-color: #E5E5E5;
+}
+
+.dropdown-extended ul li:hover {
+	background-color: #EAEDF1;
+}
+
+.dropdown-extended .header, .dropdown-extended .footer {
+	/*border-color: #E5E5E5;*/
+	color: #FFFFFF;
+}
+
+.dropdown-extended .footer {
+	border-top-style: solid;
+	border-top-width: 1px;
+	background-color: #323A45;
+}
+
+.dropdown-extended .header {
+	background: #708090;
+	color: #FFFFFF !important;
+}
+
+.dropdown-extended .header a,
+.dropdown-extended .footer a {
+	color: #FFFFFF;
+}
+
+.dropdown .pointer {
+	border-color: #E3E3E3 transparent;
+}
+
+.dropdown .pointer-inner {
+	border-color: #FFF transparent;
+}
+
+.dropdown-extended .pointer-inner {
+	border-color: #708090 transparent;
+}
+
+ul.linklist li.responsive-menu a.responsive-menu-link:before {
+	color: #708090;
+}
+
+ul.linklist li.responsive-menu a.responsive-menu-link:hover:before, ul.linklist li.responsive-menu.visible a.responsive-menu-link:before {
+	color: #FE9B0E;
+}
+
+.dropdown .dropdown-contents {
+	background: #fff;
+	border-color: #b9b9b9;
+	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-up .dropdown-contents {
+	box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown li, .dropdown li li {
+	border-color: #DCDCDC;
+}
+
+.dropdown li.separator {
+	border-color: #DCDCDC;
+}
+
+/* Notifications
+---------------------------------------- */
+
+.notification_list p.notification-time {
+	color: #323A45;
+}
+
+li.notification-reported strong, li.notification-disapproved strong {
+	color: #D31141;
+}
+
+.badge {
+	background-color: #FF5500;
+	color: #ffffff;
+}
+
+#lsrplogo {
+    width: 100%;
+    height: 100px;
+    background: url('./images/lsrplogo.png') no-repeat;
+    background-size: auto 100%;
+    background-position: 50% 0;
+    position: absolute;
+    top: 90px;
+    cursor: pointer;
+}

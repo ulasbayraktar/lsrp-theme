@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?8927606');
+  src: url('../fonts/fontello.eot?8927606#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff?8927606') format('woff'),
+       url('../fonts/fontello.ttf?8927606') format('truetype'),
+       url('../fonts/fontello.svg?8927606#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../fonts/fontello.svg?8927606#fontello') format('svg');
+  }
+}
+*/
+ 
+ .social-icons [class^="icon-"]:before, .social-icons [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-size: 1.846em;
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-dribbble:before { content: '\e800'; } /* 'î €' */
+.icon-facebook:before { content: '\e801'; } /* 'î ' */
+.icon-facebook-squared:before { content: '\e802'; } /* 'î ‚' */
+.icon-flickr:before { content: '\e803'; } /* 'î ƒ' */
+.icon-foursquare:before { content: '\e804'; } /* 'î „' */
+.icon-github:before { content: '\e805'; } /* 'î …' */
+.icon-github-squared:before { content: '\e806'; } /* 'î †' */
+.icon-gplus:before { content: '\e807'; } /* 'î ‡' */
+.icon-gplus-squared:before { content: '\e808'; } /* 'î ˆ' */
+.icon-instagramm:before { content: '\e809'; } /* 'î ‰' */
+.icon-linkedin-squared:before { content: '\e80a'; } /* 'î Š' */
+.icon-linkedin:before { content: '\e80b'; } /* 'î ‹' */
+.icon-pinterest-circled:before { content: '\e80c'; } /* 'î Œ' */
+.icon-pinterest-squared:before { content: '\e80d'; } /* 'î ' */
+.icon-tumblr:before { content: '\e80e'; } /* 'î Ž' */
+.icon-tumblr-squared:before { content: '\e80f'; } /* 'î ' */
+.icon-twitch:before { content: '\e810'; } /* 'î ' */
+.icon-twitter:before { content: '\e811'; } /* 'î ‘' */
+.icon-twitter-squared:before { content: '\e812'; } /* 'î ’' */
+.icon-vkontakte:before { content: '\e813'; } /* 'î “' */
+.icon-weibo:before { content: '\e814'; } /* 'î ”' */
+.icon-xing:before { content: '\e815'; } /* 'î •' */
+.icon-xing-squared:before { content: '\e816'; } /* 'î –' */
+.icon-youtube:before { content: '\e817'; } /* 'î —' */
+.icon-youtube-squared:before { content: '\e818'; } /* 'î ˜' */
+.icon-vimeo-squared:before { content: '\e819'; } /* 'î ™' */
