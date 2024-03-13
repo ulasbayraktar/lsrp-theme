@@ -7,4 +7,5 @@ Place the theme from the 'styles' folder into the 'styles' directory located in 
 
 ## Theme Image
 
-![image](https://github.com/ulasbayraktar/lsrp-theme/assets/73671806/04a4107b-a045-4ee3-89ad-414b09227125)
+![image](https://github.com/ulasbayraktar/lsrp-theme/assets/73671806/dedb3708-932c-43ee-80f7-1fa0ce3a8a91)
+
