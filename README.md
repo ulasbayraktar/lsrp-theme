@@ -1,5 +1,5 @@
 # LS-RP Theme
-Replica LS-RP theme for PHPBB3. It may have some minor differences compared to the original theme.
+Replica LS-RP theme for phpBB3. It may have some minor differences compared to the original theme.
 
 ## How to install?
 
